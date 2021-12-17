@@ -5,6 +5,10 @@ import pa2 from "../images/pa2.svg";
 import pa3 from "../images/pa3.svg";
 import pa4 from "../images/pa4.svg";
 import pa5 from "../images/pa5.png";
+import pic1 from "../images/pic1.jpg";
+import pic2 from "../images/pic2.jpg";
+import pic3 from "../images/pic3.jpg";
+import pic4 from "../images/pic4.jpg";
 const Projectareas = () => {
   return (
     <div
