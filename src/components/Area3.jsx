@@ -1,5 +1,5 @@
 import React from "react";
-import Area3back from "../images/Peoplerunning.png";
+import Area3back from "../images/PeopleRunning.png";
 import Area3vector from "../images/Area3.svg";
 const Area3 = () => {
   return (
