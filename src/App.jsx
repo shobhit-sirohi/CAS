@@ -10,7 +10,7 @@ import Whyparticipate from "./components/Whyparticipate";
 
 const App = () => {
   return (
-    <div className="h-screen w-screen overflow-x-hidden font-Montserrat ">
+    <div className="overflow-x-hidden lg:h-screen lg:w-screen font-Montserrat ">
       <Navbar />
       <Header />
       <Area3 />

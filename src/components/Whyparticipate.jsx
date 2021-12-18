@@ -7,68 +7,74 @@ import Week from "./Week";
 const Whyparticipate = () => {
   return (
     <div
-      className="bg-darkblue bg-no-repeat bg-right-top bg-60%  px-40  pt-32"
+      className="bg-darkblue bg-no-repeat bg-right-top bg-60%  xl:px-40 lg:px-20 px-4 xl:pt-32 lg:pt-20 pt-4"
       style={{ backgroundImage: `url(${parti})` }}
     >
-      <h2 className="text-white text-5xl font-bold font-Montserrat ">
+      <h2 className="text-2xl font-bold text-white xl:text-5xl lg:test-4xl md:text-3xl font-Montserrat ">
         Why should <br /> you participate?
       </h2>
-      <div className="grid grid-cols-2 pt-40 items-center justify-items-center gap-14 ">
-        <span className="">
-          <h3 className="text-darkyellow text-4xl  font-medium">
+      <div className="grid items-center grid-cols-1 grid-rows-6 gap-6 pt-20 md:grid-rows-2 xl:pt-40 md:grid-cols-2 justify-items-center xl:gap-14 lg:gap-10 md:gap-8">
+        <div className="order-2 md:order-1">
+          <h3 className="text-2xl font-medium lg:text-3xl xl:text-4xl text-darkyellow">
             Build a Strong <br /> College resume
           </h3>
-          <p className="text-white text-3xl pt-10   font-medium">
+          <p className="pt-10 text-2xl font-medium text-white lg:text-3xl xl:text-4xl ">
             Have a passion project for your college, resume
             and build experiences that take you closer to
             your goals.
           </p>
-        </span>
-        <img
-          src={why1}
-          alt="resume image"
-          className=" h-96 w-96"
-        />
-        <img
-          src={why2}
-          alt="resume image"
-          className=" h-96 w-96"
-        />
-        <span className="">
-          <h3 className="text-darkyellow text-4xl  font-medium">
+        </div>
+        <div className="order-2 md:order-1">
+          <img
+            src={why1}
+            alt="resume image"
+            className="order-2 md:order-1 w-72 h-72 xl:h-96 xl:w-96"
+          />
+        </div>
+        <div className="order-3">
+          <img
+            src={why2}
+            alt="resume image"
+            className=" w-72 h-72 xl:h-96 xl:w-96"
+          />
+        </div>
+        <div className="order-4">
+          <h3 className="text-2xl font-medium lg:text-3xl xl:text-4xl text-darkyellow">
             Get mentored by <br /> Harvard mentors from{" "}
             <br /> Harvard Student Agencies
           </h3>
-          <p className="text-white text-3xl pt-10   font-medium">
+          <p className="pt-10 text-2xl font-medium text-white lg:text-3xl xl:text-4xl">
             The final proejcts will also be judged by
             Harvard students.
           </p>
-        </span>
-        <span className="">
-          <h3 className="text-darkyellow text-4xl  font-medium">
+        </div>
+        <div className="order-6 md:order-5">
+          <h3 className="text-2xl font-medium lg:text-3xl xl:text-4xl text-darkyellow">
             Collaborate with
             <br />
             Global Peers
           </h3>
-          <p className="text-white text-3xl pt-10   font-medium">
+          <p className="pt-10 text-2xl font-medium text-white lg:text-3xl xl:text-4xl">
             Find your passion. Collaborate with like-minded
             individuals from across the world to broaden
             your perspectives and network like never before.
           </p>
-        </span>
-        <img
-          src={why3}
-          alt="resume image"
-          className=" h-auto"
-        />
+        </div>
+        <div className="order-5 md:order-6">
+          <img
+            src={why3}
+            alt="resume image"
+            className=" w-72 h-72 xl:h-96 xl:w-96"
+          />
+        </div>
       </div>
-      <h2 className="text-white text-5xl font-bold font-Montserrat pt-40 ">
+      <h2 className="pt-40 text-5xl font-bold text-white font-Montserrat ">
         Program
         <br />
         Schedule
       </h2>
 
-      <div className="pt-40 flex h-1/3 gap-8 overflow-x-scroll overscroll-auto ">
+      <div className="flex gap-8 pt-40 overflow-x-scroll h-1/3 overscroll-auto ">
         <Week
           color="bg-newred"
           height="h-32"

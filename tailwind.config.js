@@ -20,6 +20,7 @@ module.exports = {
       auto: "auto",
       cover: "cover",
       contain: "contain",
+      "30%": "30%",
       "40%": "40%",
       "50%": "50%",
       "60%": "60%",

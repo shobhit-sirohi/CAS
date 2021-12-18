@@ -4,22 +4,18 @@ import Area3vector from "../images/Area3.svg";
 const Area3 = () => {
   return (
     <div
-      className="bg-cover h-4/5 flex flex-col p-8 px-40 justify-end "
+      className="flex flex-col justify-end p-4 bg-cover lg:p-6 xl:p-8 lg:px-20 xl:px-40 h-4/5 "
       style={{ backgroundImage: `url(${Area3back})` }}
     >
       <div
-        className="bg-right bg-no-repeat font-medium
-         text-4xl text-gray-500 bg-white h-1/2  w-full flex  text-center p-10 justify-center "
+        className="flex justify-center w-full p-10 text-base font-medium text-center text-black bg-white bg-right bg-no-repeat md:text-gray-500 md:text-lg lg:text-xl xl:text-2xl h-1/2 "
         style={{ backgroundImage: `url(${Area3vector})` }}
       >
-        <p>
+        <p className="md:p-4 xl:p-20">
           Rather than being a teacher-centered curriculum,
-          <br />
-          the Global CAS Leaders Program follows a<br />
+          the Global CAS Leaders Program follows a
           student-centered curriculum: Students identify an
-          area of <br />
-          interest and they develop a burning
-          <br />
+          area of interest and they develop a burning
           question related to that topic.
         </p>
       </div>
