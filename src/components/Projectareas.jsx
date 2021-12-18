@@ -48,7 +48,7 @@ const Projectareas = () => {
       <h2 className="pt-4 text-3xl font-bold lg:pb-20 lg:text-4xl 2xl:text-5xl">
         Project Areas
       </h2>
-      <div className="flex flex-col gap-2 pt-4 md:gap-10 md:flex-row ">
+      <div className="flex flex-col items-center gap-2 pt-4 md:gap-10 md:flex-row">
         <div className="grid grid-cols-2 gap-4 font-medium text-white md:w-1/2 lg:text-xl 2xl:text-2xl md:h-1/2">
           <a
             onClick={handleOne}
@@ -147,7 +147,7 @@ const Projectareas = () => {
           <div
             style={{ backgroundImage: `url(${pa4})` }}
             className={
-              " h-auto bg-darkindigo rounded-bl-2xl bg-no-repeat bg-right-bottom-3 bg-30% text-white lg:text-xl xl:text-3xl font-medium space-y-4  " +
+              " h-auto bg-darkindigo rounded-bl-2xl bg-no-repeat bg-right-bottom-3 bg-30% text-white lg:text-xl 2xl:text-3xl font-medium space-y-4  " +
               four
             }
           >

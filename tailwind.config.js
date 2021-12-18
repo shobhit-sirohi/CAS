@@ -34,6 +34,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero: "url('./src/images/headerback.svg')",
+        footer: "url('./src/images/footer.png')",
+        eligible: "url('./src/images/eligibility.svg')",
       },
       colors: {
         newred: "#EA4B4B",

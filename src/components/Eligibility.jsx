@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import eligible from "../images/eligibility.svg";
 
 const Eligibility = () => {
   const [eligibility, setEligibility] = useState(" block ");
@@ -33,15 +32,12 @@ const Eligibility = () => {
     setFee(" block ");
   };
   return (
-    <div
-      className="h-4/5 bg-no-repeat bg-102% bg-newred flex flex-col md:flex-row px-4 lg:px-20 md:px-10  2xl:px-40  justify-center items-center md:items-end pb-4 pt-6 md:pb-20"
-      style={{ backgroundImage: `url(${eligible})` }}
-    >
+    <div className="h-4/5 bg-no-repeat bg-102% bg-eligible bg-newred flex flex-col md:flex-row px-4 lg:px-20 md:px-10  2xl:px-40  justify-center items-center md:items-end pb-4 pt-6 md:pb-20">
       <ul className="pb-12 space-y-6 text-2xl font-medium text-darkblue md:text-white md:w-1/3 2xl:text-4xl lg:text-2xl md:text-xl ">
         <li>
           <a
             onClick={handleEligibility}
-            className="hover:text-darkblue"
+            className="hover:text-darkblue hover:cursor-pointer"
           >
             Applicant Eligibility
           </a>
@@ -49,7 +45,7 @@ const Eligibility = () => {
         <li>
           <a
             onClick={handleApplication}
-            className="hover:text-darkblue"
+            className="hover:text-darkblue hover:cursor-pointer"
           >
             Application Process
           </a>
@@ -57,7 +53,7 @@ const Eligibility = () => {
         <li>
           <a
             onClick={handleDeadline}
-            className="hover:text-darkblue"
+            className="hover:text-darkblue hover:cursor-pointer"
           >
             Application Deadlines
           </a>
@@ -65,7 +61,7 @@ const Eligibility = () => {
         <li>
           <a
             onClick={handleFee}
-            className="hover:text-darkblue"
+            className="hover:text-darkblue hover:cursor-pointer"
           >
             Program Fee
           </a>

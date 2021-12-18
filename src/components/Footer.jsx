@@ -1,11 +1,8 @@
 import React from "react";
-import footer from "../images/footer.png";
+
 const Footer = () => {
   return (
-    <div
-      className="flex items-end px-4 pb-1 bg-no-repeat bg-auto 2xl:pb-6 lg:bg-cover h-2/3 lg:px-2 2xl:px-40 justify-left"
-      style={{ backgroundImage: `url(${footer})` }}
-    >
+    <div className="flex items-end px-4 pb-1 bg-no-repeat bg-auto bg-footer 2xl:pb-6 lg:bg-cover h-2/3 lg:px-2 2xl:px-40 justify-left">
       <span className="flex flex-col space-y-0.5 xl:space-y-6">
         <p className="text-2xl font-medium text-darkblue lg:text-5xl md:text-3xl 2xl:text-6xl">
           GLOBAL
