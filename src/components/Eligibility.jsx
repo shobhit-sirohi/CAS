@@ -34,10 +34,10 @@ const Eligibility = () => {
   };
   return (
     <div
-      className="h-4/5 bg-no-repeat bg-102% bg-newred flex flex-col md:flex-row px-4 lg:px-20 md:px-10  xl:px-40  justify-center items-center md:items-end pb-4 pt-6 md:pb-20"
+      className="h-4/5 bg-no-repeat bg-102% bg-newred flex flex-col md:flex-row px-4 lg:px-20 md:px-10  2xl:px-40  justify-center items-center md:items-end pb-4 pt-6 md:pb-20"
       style={{ backgroundImage: `url(${eligible})` }}
     >
-      <ul className="pb-12 space-y-6 text-2xl font-medium text-darkblue md:text-white md:w-1/3 xl:text-4xl lg:text-2xl md:text-xl ">
+      <ul className="pb-12 space-y-6 text-2xl font-medium text-darkblue md:text-white md:w-1/3 2xl:text-4xl lg:text-2xl md:text-xl ">
         <li>
           <a
             onClick={handleEligibility}
@@ -79,15 +79,15 @@ const Eligibility = () => {
             eligibility
           }
         >
-          <h2 className="text-xl font-bold xl:text-4xl lg:text-3xl md:text-2xl">
+          <h2 className="text-xl font-bold 2xl:text-4xl lg:text-3xl md:text-2xl">
             Applicant Eligibility
           </h2>
-          <p className="pt-1 font-medium xl:pt-4 lg:pt-2 xl:text-2xl lg:text-base ">
+          <p className="pt-1 font-medium 2xl:pt-4 lg:pt-2 2xl:text-2xl lg:text-base ">
             High-school students from across the world, who
             are driven by curiosity, ambition and a spark
             for innovation are welcome to apply.
           </p>
-          <p className="font-medium xl:text-2xl lg:text-base">
+          <p className="font-medium 2xl:text-2xl lg:text-base">
             We don't consider graes or mark shets as
             yardsticks for eligibility - instead, we want to
             know about you, your ideas and goals.
@@ -99,16 +99,16 @@ const Eligibility = () => {
             application
           }
         >
-          <h2 className="text-xl font-bold xl:text-4xl lg:text-3xl md:text-2xl">
+          <h2 className="text-xl font-bold 2xl:text-4xl lg:text-3xl md:text-2xl">
             Application Process
           </h2>
-          <p className="pt-1 font-medium xl:pt-4 lg:pt-2 xl:text-2xl lg:text-base">
+          <p className="pt-1 font-medium 2xl:pt-4 lg:pt-2 2xl:text-2xl lg:text-base">
             Round 1: Application Form.
           </p>
-          <p className="font-medium xl:text-2xl lg:text-base">
+          <p className="font-medium 2xl:text-2xl lg:text-base">
             Round 2: Interview
           </p>
-          <p className="font-medium xl:text-2xl lg:text-base">
+          <p className="font-medium 2xl:text-2xl lg:text-base">
             Students will then be admitted to the course on
             the basis of the application and interview.
           </p>
@@ -119,16 +119,16 @@ const Eligibility = () => {
             deadline
           }
         >
-          <h2 className="text-xl font-bold xl:text-4xl lg:text-3xl md:text-2xl">
+          <h2 className="text-xl font-bold 2xl:text-4xl lg:text-3xl md:text-2xl">
             Application Deadlines
           </h2>
-          <p className="pt-1 text-sm font-medium xl:pt-4 lg:pt-2 xl:text-2xl lg:text-base">
+          <p className="pt-1 text-sm font-medium 2xl:pt-4 lg:pt-2 2xl:text-2xl lg:text-base">
             Early application deadline: 10th January 2022 .
           </p>
-          <p className="font-medium xl:text-2xl lg:text-base">
+          <p className="font-medium 2xl:text-2xl lg:text-base">
             Regular application deadline: 25th January 2022
           </p>
-          <p className="font-medium xl:text-2xl lg:text-base">
+          <p className="font-medium 2xl:text-2xl lg:text-base">
             All applications are considered on a rolling
             basis
           </p>
@@ -139,13 +139,13 @@ const Eligibility = () => {
             fee
           }
         >
-          <h2 className="text-xl font-bold xl:text-4xl lg:text-3xl md:text-2xl">
+          <h2 className="text-xl font-bold 2xl:text-4xl lg:text-3xl md:text-2xl">
             Program Fee
           </h2>
-          <p className="pt-1 font-medium xl:pt-4 lg:pt-2 xl:text-2xl lg:text-base">
+          <p className="pt-1 font-medium 2xl:pt-4 lg:pt-2 2xl:text-2xl lg:text-base">
             Early application fee: USD 600
           </p>
-          <p className="font-medium xl:text-2xl lg:text-base">
+          <p className="font-medium 2xl:text-2xl lg:text-base">
             Regular application fee: USD 850
           </p>
         </div>

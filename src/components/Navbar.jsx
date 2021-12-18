@@ -3,12 +3,12 @@ import logo from "../images/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between h-16 px-4 bg-white border-gray-600 lg:h-18 xl:h-28 lg:px-10 md:sticky md:top-0 md:z-10 lg:border-b-2">
+    <div className="flex items-center justify-between h-16 px-4 bg-white border-gray-600 lg:h-18 2xl:h-28 lg:px-10 md:sticky md:top-0 md:z-10 lg:border-b-2">
       <div>
         <img
           src={logo}
           alt="logo"
-          className="h-10 lg:h-12 xl:h-20"
+          className="h-10 lg:h-12 2xl:h-20"
         />
       </div>
       <a className="lg:hidden">
@@ -34,7 +34,7 @@ const Navbar = () => {
           <line x1="4" y1="18" x2="20" y2="18" />
         </svg>
       </a>
-      <ul className="justify-center hidden text-sm font-medium text-gray-600 lg:space-x-4 xl:space-x-6 lg:text-base xl:text-xl lg:flex lg:items-center">
+      <ul className="justify-center hidden text-sm font-medium text-gray-600 lg:space-x-4 2xl:space-x-6 lg:text-base 2xl:text-xl lg:flex lg:items-center">
         <li>
           <a href="#">CSDGC YSICL</a>
         </li>

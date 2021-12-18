@@ -1,3 +1,5 @@
+// import gg from "./src/images/headerback.svg";
+
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
@@ -30,6 +32,9 @@ module.exports = {
       16: "4rem",
     },
     extend: {
+      backgroundImage: {
+        hero: "url('./src/images/headerback.svg')",
+      },
       colors: {
         newred: "#EA4B4B",
         darkindigo: "#414A6D",

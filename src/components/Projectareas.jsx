@@ -42,38 +42,38 @@ const Projectareas = () => {
 
   return (
     <div
-      className="h-auto px-4 bg-right-bottom bg-no-repeat bg-contain lg:mt-32 lg:px-20 xl:px-40 "
+      className="h-auto px-4 bg-right-bottom bg-no-repeat bg-contain lg:mt-32 lg:px-20 2xl:px-40 "
       style={{ backgroundImage: `url(${projectareaback})` }}
     >
-      <h2 className="pt-4 text-3xl font-bold lg:pb-20 lg:text-4xl xl:text-5xl">
+      <h2 className="pt-4 text-3xl font-bold lg:pb-20 lg:text-4xl 2xl:text-5xl">
         Project Areas
       </h2>
       <div className="flex flex-col gap-2 pt-4 md:gap-10 md:flex-row ">
-        <div className="grid grid-cols-2 gap-4 font-medium text-white md:w-1/2 lg:text-xl xl:text-2xl md:h-1/2">
+        <div className="grid grid-cols-2 gap-4 font-medium text-white md:w-1/2 lg:text-xl 2xl:text-2xl md:h-1/2">
           <a
             onClick={handleOne}
-            className="bg-newred  bg-right-top-4 bg-no-repeat h-40 hover:cursor-pointer w-40 md:h-40 md:w-40 lg:h-52 lg:w-52 xl:h-80 xl:w-80 bg-70% flex flex-col lg:text-xl xl:text-4xl font-medium justify-end p-10"
+            className="bg-newred  bg-right-top-4 bg-no-repeat h-40 hover:cursor-pointer w-40 md:h-40 md:w-40 lg:h-52 lg:w-52 2xl:h-80 2xl:w-80 bg-70% flex flex-col lg:text-xl 2xl:text-4xl font-medium justify-end p-10"
             style={{ backgroundImage: `url(${pa1})` }}
           >
             STEM
           </a>
           <a
             onClick={handleTwo}
-            className="bg-right-top bg-no-repeat bg-newyellow hover:cursor-pointer  md:h-40 h-40 w-40 md:w-40 lg:h-52 lg:w-52 xl:h-80 xl:w-80 bg-60% flex flex-col lg:text-xl xl:text-4xl font-medium justify-end p-6"
+            className="bg-right-top bg-no-repeat bg-newyellow hover:cursor-pointer  md:h-40 h-40 w-40 md:w-40 lg:h-52 lg:w-52 2xl:h-80 2xl:w-80 bg-60% flex flex-col lg:text-xl 2xl:text-4xl font-medium justify-end p-6"
             style={{ backgroundImage: `url(${pa2})` }}
           >
             Community <br /> Services
           </a>
           <a
             onClick={handleThree}
-            className="bg-right-top bg-no-repeat bg-darkblue hover:cursor-pointer md:h-40 h-40 w-40 md:w-40 lg:h-52 lg:w-52 xl:h-80 xl:w-80 bg-50% flex flex-col lg:text-xl xl:text-4xl font-medium justify-end p-6"
+            className="bg-right-top bg-no-repeat bg-darkblue hover:cursor-pointer md:h-40 h-40 w-40 md:w-40 lg:h-52 lg:w-52 2xl:h-80 2xl:w-80 bg-50% flex flex-col lg:text-xl 2xl:text-4xl font-medium justify-end p-6"
             style={{ backgroundImage: `url(${pa3})` }}
           >
             Arts
           </a>
           <a
             onClick={handleFour}
-            className="bg-right-top bg-no-repeat bg-darkindigo hover:cursor-pointer h-40 w-40 md:h-40 md:w-40 lg:h-52 lg:w-52 xl:h-80 xl:w-80 bg-50% flex flex-col lg:text-xl xl:text-4xl font-medium justify-end p-6"
+            className="bg-right-top bg-no-repeat bg-darkindigo hover:cursor-pointer h-40 w-40 md:h-40 md:w-40 lg:h-52 lg:w-52 2xl:h-80 2xl:w-80 bg-50% flex flex-col lg:text-xl 2xl:text-4xl font-medium justify-end p-6"
             style={{ backgroundImage: `url(${pa4})` }}
           >
             Business
@@ -83,7 +83,7 @@ const Projectareas = () => {
           <div
             style={{ backgroundImage: `url(${pa1})` }}
             className={
-              " h-auto bg-newred rounded-bl-2xl bg-no-repeat bg-right-bottom-3 bg-30% text-white lg:text-xl xl:text-3xl font-medium space-y-4  " +
+              " h-auto bg-newred rounded-bl-2xl bg-no-repeat bg-right-bottom-3 bg-30% text-white lg:text-xl 2xl:text-3xl font-medium space-y-4  " +
               one
             }
           >
@@ -106,7 +106,7 @@ const Projectareas = () => {
           <div
             style={{ backgroundImage: `url(${pa2})` }}
             className={
-              " h-auto bg-newyellow rounded-bl-2xl bg-no-repeat bg-right-bottom-3 bg-30% text-white lg:text-xl xl:text-3xl font-medium space-y-4  " +
+              " h-auto bg-newyellow rounded-bl-2xl bg-no-repeat bg-right-bottom-3 bg-30% text-white lg:text-xl 2xl:text-3xl font-medium space-y-4  " +
               two
             }
           >
@@ -128,7 +128,7 @@ const Projectareas = () => {
           <div
             style={{ backgroundImage: `url(${pa3})` }}
             className={
-              " h-auto bg-darkblue rounded-bl-2xl bg-no-repeat bg-right-bottom-3 bg-30% text-white lg:text-xl xl:text-3xl font-medium space-y-4  " +
+              " h-auto bg-darkblue rounded-bl-2xl bg-no-repeat bg-right-bottom-3 bg-30% text-white lg:text-xl 2xl:text-3xl font-medium space-y-4  " +
               three
             }
           >
@@ -168,7 +168,7 @@ const Projectareas = () => {
               Build a robot
             </p>
           </div>
-          <h2 className="pt-6 pl-20 font-medium text-white lg:text-xl xl:text-3xl ">
+          <h2 className="pt-6 pl-20 font-medium text-white lg:text-xl 2xl:text-3xl ">
             Students will be grouped in
             <br />
             teams of 3-5 with peers from
