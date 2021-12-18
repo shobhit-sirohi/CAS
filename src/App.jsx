@@ -10,15 +10,17 @@ import Whyparticipate from "./components/Whyparticipate";
 
 const App = () => {
   return (
-    <div className="overflow-x-hidden lg:h-screen lg:w-screen font-Montserrat ">
-      <Navbar />
-      <Header />
-      <Area3 />
-      <Projectareas />
-      <Whyparticipate />
-      <Mentors />
-      <Eligibility />
-      <Footer />
+    <div className="flex justify-center lg:h-screen lg:w-screen font-Montserrat">
+      <div className="max-w-screen-3000">
+        <Navbar />
+        <Header />
+        <Area3 />
+        <Projectareas />
+        <Whyparticipate />
+        <Mentors />
+        <Eligibility />
+        <Footer />
+      </div>
     </div>
   );
 };

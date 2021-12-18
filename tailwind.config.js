@@ -32,6 +32,9 @@ module.exports = {
       16: "4rem",
     },
     extend: {
+      maxWidth: {
+        3000: "2500px",
+      },
       backgroundImage: {
         hero: "url('./src/images/headerback.svg')",
         footer: "url('./src/images/footer.png')",
