@@ -40,7 +40,7 @@ const Header = () => {
             towards academic excellence and changemaking
           </p>
         </div>
-        <div className="flex flex-col p-6 pt-10 space-x-4 space-y-4 text-sm font-medium xl:pl-20 md:space-y-0 md:space-x-0 md:w-1/3 2xl:pl-40 2xl:text-2xl lg:text-xl md:text-base">
+        <div className="flex flex-col pt-10 space-x-4 space-y-4 text-sm font-medium xl:pl-20 md:space-y-0 md:space-x-0 md:w-1/3 2xl:pl-40 2xl:text-2xl lg:text-xl md:text-base">
           <span className="">
             <p className="">POWERED BY</p>
             <img

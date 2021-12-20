@@ -10,7 +10,7 @@ import Whyparticipate from "./components/Whyparticipate";
 
 const App = () => {
   return (
-    <div className="lg:h-screen lg:w-screen font-Montserrat">
+    <div className="mx-auto 2xl:max-w-3000 lg:h-screen lg:w-screen font-Montserrat">
       <Navbar />
       <Header />
       <Area3 />

@@ -11,7 +11,7 @@ const Area3 = () => {
         className="flex justify-center w-full p-10 text-base font-medium text-center text-black bg-white bg-right bg-no-repeat md:text-gray-500 md:text-lg lg:text-xl 2xl:text-2xl h-1/2 "
         style={{ backgroundImage: `url(${Area3vector})` }}
       >
-        <p className="md:p-4 2xl:p-20">
+        <p className="md:p-4 2xl:p-20 ">
           Rather than being a teacher-centered curriculum,
           the Global CAS Leaders Program follows a
           student-centered curriculum: Students identify an
